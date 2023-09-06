@@ -1,0 +1,71 @@
+.info{
+  height: 100vh;
+}
+
+.info-images{
+  align-self: center;
+  max-width: 100%;
+}
+
+
+.info-images-container{
+  max-width: 600px;
+  height: 540px;
+  position: relative;  
+}
+
+
+.info_img{
+  position: absolute;
+  z-index: 100;
+  width: 50%;
+  border: 5px solid white;
+  box-shadow: 5px 10px 5px black;
+}
+
+
+.info-text{
+  align-self: center;
+  padding: 0px 10px;
+}
+
+
+.info_img:nth-child(1){
+  height: 300px;
+  object-fit: cover;
+  bottom: -60px;
+  right: 10px;
+  width: 50%;
+  z-index: 105;
+  
+}
+
+
+.info_img:nth-child(2){
+  top: 0px;
+  right: 0px;
+  width: 60%;
+  z-index: 100;
+  
+}
+
+.info_img:nth-child(3){
+  top: 50px;
+  width: 65%;
+  z-index: 104;
+  
+}
+
+#gg{
+  height: 300px;
+  width: 220px;
+  object-fit: cover;
+}
+
+.info_img:nth-child(4){
+  bottom: 0px;
+  right: 0px;
+  width: 40%;
+  z-index: 100;
+  
+}
